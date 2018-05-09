@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IPEM298
+</name>
+</assembly>
+<members>
+<member name="P:IPEM298.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:IPEM298.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:IPEM298.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:IPEM298.DataSet1.vista_horario_personalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.vista_alum_xcursoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableInasisGrupalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableLibretaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTable2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableconsultahorarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.vista_horario_personalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.vista_alum_xcursoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableInasisGrupalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableLibretaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTable2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableconsultahorarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:IPEM298.DataSet1.vista_horario_personalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:IPEM298.DataSet1.vista_alum_xcursoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableInasisGrupalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableLibretaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTable2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:IPEM298.DataSet1.DataTableconsultahorarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:IPEM298.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:IPEM298.DataSet1TableAdapters.vista_horario_personalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:IPEM298.DataSet1TableAdapters.vista_alum_xcursoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:IPEM298.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(IPEM298.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:IPEM298.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(IPEM298.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:IPEM298.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(IPEM298.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:IPEM298.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:IPEM298.DataSet1TableAdapters.TableAdapterManager.UpdateAll(IPEM298.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:IPEM298.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:IPEM298.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:IPEM298.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

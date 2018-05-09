@@ -1,0 +1,113 @@
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.pdb
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.xml
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmHorariosPersonal.resources
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Resources.resources
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.vbproj.GenerateResource.Cache
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.exe
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.xml
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.pdb
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe.config
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_principal.resources
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_Inicio.resources
+C:\Users\Indra\documents\visual studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmConsultaHorarios.resources
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe.config
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.exe
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.xml
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.pdb
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmConsultaHorarios.resources
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_Inicio.resources
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmHorariosPersonal.resources
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_principal.resources
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Resources.resources
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.vbproj.GenerateResource.Cache
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.pdb
+C:\Users\valeria\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.xml
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe.config
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.exe
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.xml
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.pdb
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.pdb
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.xml
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmConsultaHorarios.resources
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_Inicio.resources
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmHorariosPersonal.resources
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_principal.resources
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Resources.resources
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\BlackCrystal™\Mis documentos\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Btn_buscar_asis_personal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe.config
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.xml
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\bin\Debug\IPEM298.xml
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmConsultaHorarios.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Btn_buscar_asis_personal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_Inicio.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.FrmHorariosPersonal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Frm_principal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298\IPEM298\obj\x86\Debug\IPEM298.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\bin\Debug\IPEM298.exe.config
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.xml
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\bin\Debug\IPEM298.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\bin\Debug\IPEM298.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\bin\Debug\IPEM298.xml
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmConsultaHorarios.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_Inicio.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmHorariosPersonal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_principal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.AboutBox1.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_Asistencia_Personal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmCambiarContraseña.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmUsuario.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmPersonal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.vbprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmCertificado.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_Ver_Inasistencia.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_Generar_Planilla_Inasistencia.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_Asistencia_Alumno.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmAlumno.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmBuscAlu3.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmBusqAlu1.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmBusqCali.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmConsultaCalificaciones.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmMateria.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_ver_inasistencia_alu.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_consulta_asis_pers_fecha.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_Consulta_Asistencia_pers.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_libreta.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_emision_libretas.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmAsignarCurso.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmAsignarMateria.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmBuscaPers.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_inas_grupal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_Informe_etapa1.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_Informe_etapa2.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_Informe_etapa3.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_inas_individual.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_hordoc.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.FrmCalificaciones2.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_listado_materias.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_consultar_usuarios.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_reporte_cert_alum.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frmreporte_compr_inscrip.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_Asignar_Preceptor.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_listado_cursos_libres.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\bin\Debug\IPEM298.exe.manifest
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\bin\Debug\IPEM298.application
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.exe.manifest
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.application
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_listado_alumnos_x_curso.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_listado_de_personal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\IPEM298 - Final\IPEM298\obj\x86\Debug\IPEM298.Frm_acerca_de.resources

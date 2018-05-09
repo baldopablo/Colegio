@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 8.5" name="DataClassesdevistas">
+  <DataContextMoniker Name="/DataClassesdevistasDataContext" />
+  <nestedChildShapes>
+    <classShape Id="43873c82-b79a-4590-a27a-b05304c0803b" isExpanded="false" absoluteBounds="4.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/Vista_Docente_x_dia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7fba2f6-a2ac-4028-ab4f-e35c6c3d3edb" absoluteBounds="4.515, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="73694a75-b797-4773-8ff8-4fa5e81a6d59" isExpanded="false" absoluteBounds="5, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/Vista_inasistencia_personal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f38a919d-e05f-46d2-9a9d-038d9c3319ca" absoluteBounds="5.015, 2.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a366fd52-8e88-426f-94ee-3cd11b4f6670" isExpanded="false" absoluteBounds="0.5, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/vista_calificaciones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d546496-03ba-4bcf-87ff-de2cd9eb865c" absoluteBounds="0.51499999999999968, 2.96, 1.9700000000000002, 9.0952555338541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec9b6ab2-9d71-493f-982a-ea72c2149e25" isExpanded="false" absoluteBounds="2.625, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/vista_alum_xcurso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d37aa19-1a25-45e3-afdb-576b4f12a355" absoluteBounds="2.64, 2.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3fe475c1-4c53-4c39-a4a1-d9edee7fee85" isExpanded="false" absoluteBounds="7.125, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/Vista_inasistencia_alumno" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cc235c6-d85a-4516-9a5f-f8f023e75f6e" absoluteBounds="7.14, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="237abfda-1df3-482c-b19c-bcad652c5dfa" isExpanded="false" absoluteBounds="2.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/vista_modulocurso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="486cb1d9-f88c-4baf-ae3a-2cb8721de33a" absoluteBounds="2.515, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dbb06998-3ced-4f5b-9ed7-fdbf6abe58c7" isExpanded="false" absoluteBounds="9.375, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/VistaProfxMateria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a40cf5d-e378-4c83-a9d7-a5cec7601053" absoluteBounds="9.39, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a942726f-fccc-42df-8b80-a640f5daba41" isExpanded="false" absoluteBounds="0.5, 3.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/VistaEstCalifxAlu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26d266aa-4d8d-4ef3-addf-4ff46ed4d6c2" absoluteBounds="0.51500000000000012, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a7094e66-1e88-4bcd-a132-3fecc39bc5c2" isExpanded="false" absoluteBounds="2.5, 3.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/VistaCalifxCurso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cbfbe43-848b-4c40-af41-52695361538c" absoluteBounds="2.5149999999999997, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="928c9697-1638-4baa-9867-b6b66dc46fdf" isExpanded="false" absoluteBounds="4.5, 3.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/VistaPrueba" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb326a60-6adc-4329-991a-108dbbfbee75" absoluteBounds="4.5150000000000006, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45062999-0b03-4612-bdb9-205d57e95b26" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/vista_horario_personal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d2b0c1bf-2f8d-4357-87f4-880a2bbe4a7d" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07c8f8d2-66ac-46d3-98bf-19d4d9402171" isExpanded="false" absoluteBounds="7.25, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/Vista_libreta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="409f5495-7a97-4028-9a68-4009b4667e7f" absoluteBounds="7.2650000000000006, 2.96, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="538a13a7-c57b-4754-abc3-359002388a21" isExpanded="false" absoluteBounds="0.5, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/Vista_profesor_x_materia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5039e4b-6f76-4e46-b67c-43720d859132" absoluteBounds="0.51500000000000012, 4.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3446e051-b0df-4994-a4d7-beddd4b2eaaa" isExpanded="false" absoluteBounds="9.75, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/Vista_Alumno2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e53e9d17-f4ed-4fff-b187-9bb13785a75d" absoluteBounds="9.765, 2.835, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="833216df-0f32-4cff-bc17-930ab732871b" isExpanded="false" absoluteBounds="4.75, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClassesdevistasDataContext/Vista_alumnos_no_asignados_curso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b7f0c41e-5a63-4064-8ee0-39e8fbd0fedf" absoluteBounds="4.765, 1.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

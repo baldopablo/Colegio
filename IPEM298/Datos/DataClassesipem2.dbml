@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IPEM2" Class="DataClassesipem2DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;AttachDbFilename=&quot;C:\Program Files (x86)\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\IPEM2.mdf&quot;;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="IPEM298.My.MySettings" SettingsPropertyName="notebook" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Asistencia_docente" Member="Asistencia_docentes">
+    <Type Name="Asistencia_docente">
+      <Column Name="id_asistencia_doc" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fecha_asistencia" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="id_horario" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="estado_textbox" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="observacion" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Horario_personal_Asistencia_docente" Member="Horario_personal" ThisKey="id_horario" OtherKey="id_horario" Type="Horario_personal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Modulo" Member="Modulo">
+    <Type Name="Modulo">
+      <Column Name="id_modulo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="numero" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="hora_inicio" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="hora_fin" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="turno_textbox" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Modulo_Modulo_x_Curso" Member="Modulo_x_Curso" ThisKey="id_modulo" OtherKey="id_modulo" Type="Modulo_x_Curso" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Curso" Member="Curso">
+    <Type Name="Curso">
+      <Column Name="id_curso" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_personal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nombre_curso" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Association Name="Curso_Modulo_x_Curso" Member="Modulo_x_Curso" ThisKey="id_curso" OtherKey="id_curso" Type="Modulo_x_Curso" />
+      <Association Name="Curso_Alumno_x_curso" Member="Alumno_x_curso" ThisKey="id_curso" OtherKey="id_curso" Type="Alumno_x_curso" />
+      <Association Name="Curso_Profesor_x_Materia" Member="Profesor_x_Materia" ThisKey="id_curso" OtherKey="id_curso" Type="Profesor_x_Materia" />
+      <Association Name="Personal_Curso" Member="Personal" ThisKey="id_personal" OtherKey="id_personal" Type="Personal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Modulo_x_Curso" Member="Modulo_x_Curso">
+    <Type Name="Modulo_x_Curso">
+      <Column Name="id_modulo_x_curso" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_modulo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_curso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Modulo_x_Curso_Horario_personal" Member="Horario_personal" ThisKey="id_modulo_x_curso" OtherKey="id_modulo_x_curso" Type="Horario_personal" />
+      <Association Name="Curso_Modulo_x_Curso" Member="Curso" ThisKey="id_curso" OtherKey="id_curso" Type="Curso" IsForeignKey="true" />
+      <Association Name="Modulo_Modulo_x_Curso" Member="Modulo" ThisKey="id_modulo" OtherKey="id_modulo" Type="Modulo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Horario_personal" Member="Horario_personal">
+    <Type Name="Horario_personal">
+      <Column Name="id_horario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_personal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dia_semana" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="id_materia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_modulo_x_curso" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Horario_personal_Asistencia_docente" Member="Asistencia_docente" ThisKey="id_horario" OtherKey="id_horario" Type="Asistencia_docente" />
+      <Association Name="Modulo_x_Curso_Horario_personal" Member="Modulo_x_Curso" ThisKey="id_modulo_x_curso" OtherKey="id_modulo_x_curso" Type="Modulo_x_Curso" IsForeignKey="true" />
+      <Association Name="Personal_Horario_personal" Member="Personal" ThisKey="id_personal" OtherKey="id_personal" Type="Personal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Alumno_x_curso" Member="Alumno_x_curso">
+    <Type Name="Alumno_x_curso">
+      <Column Name="id_alumno_x_curso" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_alumno" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_curso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="especialidad" Type="System.String" DbType="NVarChar(75) NOT NULL" CanBeNull="false" />
+      <Association Name="Curso_Alumno_x_curso" Member="Curso" ThisKey="id_curso" OtherKey="id_curso" Type="Curso" IsForeignKey="true" />
+      <Association Name="Alumno_Alumno_x_curso" Member="Alumno" ThisKey="id_alumno" OtherKey="id_alumno" Type="Alumno" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Alumno_x_materia" Member="Alumno_x_materia">
+    <Type Name="Alumno_x_materia">
+      <Column Name="id_alumno_x_materia" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_alumno" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_materia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parcial1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial1" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial2" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial3" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial4" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="integrador1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaInteg1" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="promedioetapa1" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="parcial5" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial5" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial6" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial6" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial7" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial7" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial8" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial8" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="integrador2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaInteg2" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="promedioetapa2" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="parcial9" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial9" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial10" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial10" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial11" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial11" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="parcial12" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaParcial12" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="integrador3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaInteg3" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="promedioetapa3" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="promedio_anual" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="coloquio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechacoloquio" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="examen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fechaexamen" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="calif_definitiva" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="condicion_textbox" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Association Name="Alumno_Alumno_x_materia" Member="Alumno" ThisKey="id_alumno" OtherKey="id_alumno" Type="Alumno" IsForeignKey="true" />
+      <Association Name="Materia_Alumno_x_materia" Member="Materia" ThisKey="id_materia" OtherKey="id_materia" Type="Materia" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Personal" Member="Personal">
+    <Type Name="Personal">
+      <Column Name="id_personal" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre_pers" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="apelliido_pers" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="domicilio_pers" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="mail_pers" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="telefono_pers" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DNI_pers" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="titulo_pers" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fecha_psicofisico_pers" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fecha_ingreso_pers" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fecha_escalafon_pers" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="leg_provincial_pers" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="puesto_pers" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="hs_cat_colegio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hs_cat_totales" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hs_reloj_colegio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hs_reloj_totales" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="foto_personal" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Personal_Curso" Member="Curso" ThisKey="id_personal" OtherKey="id_personal" Type="Curso" />
+      <Association Name="Personal_Horario_personal" Member="Horario_personal" ThisKey="id_personal" OtherKey="id_personal" Type="Horario_personal" />
+      <Association Name="Personal_Usuario1" Member="Usuario1" ThisKey="id_personal" OtherKey="id_personal" Type="Usuario1" />
+      <Association Name="Personal_Profesor_x_Materia" Member="Profesor_x_Materia" ThisKey="id_personal" OtherKey="id_personal" Type="Profesor_x_Materia" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Asistencia_alumnos" Member="Asistencia_alumnos">
+    <Type Name="Asistencia_alumnos">
+      <Column Name="id_asistencia_alu" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fecha_asistencia_alu" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="observacion_asis_alu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="estado_asistencia_alu" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="id_alumno" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Alumno_Asistencia_alumnos" Member="Alumno" ThisKey="id_alumno" OtherKey="id_alumno" Type="Alumno" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Alumno" Member="Alumno">
+    <Type Name="Alumno">
+      <Column Name="id_alumno" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre_alu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="apellido_alu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="domicilio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DNI_alu" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fecha_inscripcion_alu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fecha_nac_alu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="mail_alu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="nomb_ape_tutor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="dni_tutor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="telefono_tutor" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="foto_alu" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Alumno_Alumno_x_curso" Member="Alumno_x_curso" ThisKey="id_alumno" OtherKey="id_alumno" Type="Alumno_x_curso" />
+      <Association Name="Alumno_Alumno_x_materia" Member="Alumno_x_materia" ThisKey="id_alumno" OtherKey="id_alumno" Type="Alumno_x_materia" />
+      <Association Name="Alumno_Asistencia_alumnos" Member="Asistencia_alumnos" ThisKey="id_alumno" OtherKey="id_alumno" Type="Asistencia_alumnos" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Usuario1" Member="Usuario1">
+    <Type Name="Usuario1">
+      <Column Name="id_usuario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_personal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nombre_usuario" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="contraseña" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="perfil" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="Personal_Usuario1" Member="Personal" ThisKey="id_personal" OtherKey="id_personal" Type="Personal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Profesor_x_Materia" Member="Profesor_x_Materia">
+    <Type Name="Profesor_x_Materia">
+      <Column Name="id_profesor_materia" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_personal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_materia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_curso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cant_hs_catedra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Curso_Profesor_x_Materia" Member="Curso" ThisKey="id_curso" OtherKey="id_curso" Type="Curso" IsForeignKey="true" />
+      <Association Name="Personal_Profesor_x_Materia" Member="Personal" ThisKey="id_personal" OtherKey="id_personal" Type="Personal" IsForeignKey="true" />
+      <Association Name="Materia_Profesor_x_Materia" Member="Materia" ThisKey="id_materia" OtherKey="id_materia" Type="Materia" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Materia" Member="Materia">
+    <Type Name="Materia">
+      <Column Name="id_materia" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="codigo_materia" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nombre_materia" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="especialidad_textbox" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Materia_Alumno_x_materia" Member="Alumno_x_materia" ThisKey="id_materia" OtherKey="id_materia" Type="Alumno_x_materia" />
+      <Association Name="Materia_Profesor_x_Materia" Member="Profesor_x_Materia" ThisKey="id_materia" OtherKey="id_materia" Type="Profesor_x_Materia" />
+    </Type>
+  </Table>
+</Database>
